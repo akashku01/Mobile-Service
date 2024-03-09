@@ -1,0 +1,58 @@
+-------------------------------------------------------------------------------
+Test set: com.verification.logical.ValidatorVerification
+-------------------------------------------------------------------------------
+Tests run: 12, Failures: 12, Errors: 0, Skipped: 0, Time elapsed: 0.052 s <<< FAILURE! - in com.verification.logical.ValidatorVerification
+validate{ServiceRequest, String}[1]  Time elapsed: 0.002 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Unexpected exception type thrown ==> expected: <com.infy.exception.MobileServiceException> but was: <java.lang.NullPointerException>
+	at com.verification.logical.ValidatorVerification.validate(ValidatorVerification.java:78)
+Caused by: java.lang.NullPointerException
+	at com.verification.logical.ValidatorVerification.lambda$validate$0(ValidatorVerification.java:79)
+	at com.verification.logical.ValidatorVerification.validate(ValidatorVerification.java:78)
+
+validate{ServiceRequest, String}[2]  Time elapsed: 0.003 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Unexpected exception type thrown ==> expected: <com.infy.exception.MobileServiceException> but was: <java.lang.NullPointerException>
+	at com.verification.logical.ValidatorVerification.validate(ValidatorVerification.java:78)
+Caused by: java.lang.NullPointerException
+	at com.verification.logical.ValidatorVerification.lambda$validate$0(ValidatorVerification.java:79)
+	at com.verification.logical.ValidatorVerification.validate(ValidatorVerification.java:78)
+
+isValidIssues{List, Boolean, String}[1]  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <null>
+	at com.verification.logical.ValidatorVerification.isValidIssues(ValidatorVerification.java:102)
+
+isValidIssues{List, Boolean, String}[2]  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <null>
+	at com.verification.logical.ValidatorVerification.isValidIssues(ValidatorVerification.java:102)
+
+isValidIssues{List, Boolean, String}[3]  Time elapsed: 0.002 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <null>
+	at com.verification.logical.ValidatorVerification.isValidIssues(ValidatorVerification.java:102)
+
+isValidIssues{List, Boolean, String}[4]  Time elapsed: 0.002 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <null>
+	at com.verification.logical.ValidatorVerification.isValidIssues(ValidatorVerification.java:102)
+
+isValidIssues{List, Boolean, String}[5]  Time elapsed: 0.002 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <false> but was: <null>
+	at com.verification.logical.ValidatorVerification.isValidIssues(ValidatorVerification.java:102)
+
+isValidIssues{List, Boolean, String}[6]  Time elapsed: 0.002 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <false> but was: <null>
+	at com.verification.logical.ValidatorVerification.isValidIssues(ValidatorVerification.java:102)
+
+isValidBrand{String, Boolean, String}[1]  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <null>
+	at com.verification.logical.ValidatorVerification.isValidBrand(ValidatorVerification.java:91)
+
+isValidBrand{String, Boolean, String}[2]  Time elapsed: 0.002 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <false> but was: <null>
+	at com.verification.logical.ValidatorVerification.isValidBrand(ValidatorVerification.java:91)
+
+isValidBrand{String, Boolean, String}[3]  Time elapsed: 0.002 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <false> but was: <null>
+	at com.verification.logical.ValidatorVerification.isValidBrand(ValidatorVerification.java:91)
+
+isValidBrand{String, Boolean, String}[4]  Time elapsed: 0.002 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <false> but was: <null>
+	at com.verification.logical.ValidatorVerification.isValidBrand(ValidatorVerification.java:91)
+

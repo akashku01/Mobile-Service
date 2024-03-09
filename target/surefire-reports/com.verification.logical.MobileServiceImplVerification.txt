@@ -1,0 +1,23 @@
+-------------------------------------------------------------------------------
+Test set: com.verification.logical.MobileServiceImplVerification
+-------------------------------------------------------------------------------
+Tests run: 11, Failures: 2, Errors: 2, Skipped: 0, Time elapsed: 0.069 s <<< FAILURE! - in com.verification.logical.MobileServiceImplVerification
+getServices$NoRecordsFound  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Expected com.infy.exception.MobileServiceException to be thrown, but nothing was thrown.
+	at com.verification.logical.MobileServiceImplVerification.getServices$NoRecordsFound(MobileServiceImplVerification.java:106)
+
+getServices  Time elapsed: 0 s  <<< ERROR!
+java.lang.NoSuchMethodError: 'void com.infy.model.ServiceReport.<init>(java.lang.Integer, java.lang.String, java.util.List, java.lang.Float)'
+	at com.verification.logical.MobileServiceImplVerification.getServices(MobileServiceImplVerification.java:89)
+
+registerRequest$InvalidIssuesException  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Unexpected exception type thrown ==> expected: <com.infy.exception.MobileServiceException> but was: <java.lang.NullPointerException>
+	at com.verification.logical.MobileServiceImplVerification.registerRequest$InvalidIssuesException(MobileServiceImplVerification.java:70)
+Caused by: java.lang.NullPointerException
+	at com.verification.logical.MobileServiceImplVerification.lambda$registerRequest$InvalidIssuesException$0(MobileServiceImplVerification.java:70)
+	at com.verification.logical.MobileServiceImplVerification.registerRequest$InvalidIssuesException(MobileServiceImplVerification.java:70)
+
+registerRequest  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.verification.logical.MobileServiceImplVerification.registerRequest(MobileServiceImplVerification.java:59)
+

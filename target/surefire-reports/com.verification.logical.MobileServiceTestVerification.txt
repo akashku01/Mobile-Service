@@ -1,0 +1,18 @@
+-------------------------------------------------------------------------------
+Test set: com.verification.logical.MobileServiceTestVerification
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.878 s <<< FAILURE! - in com.verification.logical.MobileServiceTestVerification
+registerRequestInvalidBrandTest$UsageOfAssertThrows  Time elapsed: 0.871 s  <<< FAILURE!
+org.mockito.exceptions.verification.WantedButNotInvoked: 
+
+Wanted but not invoked:
+mobileService.registerRequest(<any>);
+-> at com.verification.logical.MobileServiceTestVerification.registerRequestInvalidBrandTest$UsageOfAssertThrows(MobileServiceTestVerification.java:37)
+Actually, there were zero interactions with this mock.
+
+	at com.verification.logical.MobileServiceTestVerification.registerRequestInvalidBrandTest$UsageOfAssertThrows(MobileServiceTestVerification.java:37)
+
+registerRequestInvalidBrandTest$AssertingExceptionMessage  Time elapsed: 0.004 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Expected org.opentest4j.AssertionFailedError to be thrown, but nothing was thrown.
+	at com.verification.logical.MobileServiceTestVerification.registerRequestInvalidBrandTest$AssertingExceptionMessage(MobileServiceTestVerification.java:46)
+

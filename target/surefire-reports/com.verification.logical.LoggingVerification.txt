@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: com.verification.logical.LoggingVerification
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 0.071 s <<< FAILURE! - in com.verification.logical.LoggingVerification
+serviceLogging  Time elapsed: 0.054 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at com.verification.logical.LoggingVerification.serviceLogging(LoggingVerification.java:104)
+
+serviceLogging$NoValidatorExceptions  Time elapsed: 0.004 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: not equal but was: <0>
+	at com.verification.logical.LoggingVerification.serviceLogging$NoValidatorExceptions(LoggingVerification.java:120)
+
+validatorLogging  Time elapsed: 0.005 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: not equal but was: <0>
+	at com.verification.logical.LoggingVerification.validatorLogging(LoggingVerification.java:59)
+
